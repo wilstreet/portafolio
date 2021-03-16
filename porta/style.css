@@ -1,0 +1,229 @@
+body{
+    background:linear-gradient(-45deg ,#b4df5b, rgba(33, 33, 37, 0.4)  ) ;
+    cursor:url(./dibujo.svg), pointer;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    color: blanchedalmond;
+    background-color: rgba(73, 55, 233, 0.4);
+    font-size: x-large;
+    transition: 10s;
+   
+}   
+.letter:hover{
+    background-color:rgba(233, 55, 55, 0.9);
+    transition: 1s;
+    transition-timing-function: 0.5s; 
+    font-size: xx-large;
+    text-transform: uppercase;
+
+}
+nav ul{
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+.menu{
+   text-transform: uppercase;
+    color: white;
+    text-shadow:
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
+    transition: 10s;
+  
+}
+
+.menu:hover{
+    
+   transform: scale(2);
+   transition: 0.5s;
+}
+.conocimientos
+{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 10%;
+}
+.level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 10s;
+    text-transform: uppercase;
+    border: 1px solid rgb(240, 233, 233);
+   
+}
+.level:hover{
+    transform: scale(1.3);
+    transition: 2s;
+    transition-timing-function: 3s; 
+    color: white;
+    border:4px solid white;
+    text-decoration: underline;
+    transform: rotate(360deg);
+}
+
+#html5{
+    background:linear-gradient(35deg,#ff6600,black);
+}
+
+#css{
+    background:linear-gradient(35deg,black, rgb(22, 75, 247));
+}
+
+#javas{
+    background:linear-gradient(35deg,black, #ffff00);
+}
+#git{
+    background:linear-gradient(35deg,rgb(207, 196, 196), rgba(14,14,14,1));
+}
+
+#node{
+    background:linear-gradient(35deg,black, #a3cc00);
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.carru{
+    background:rgba(234,85,7,0.1);
+    max-width:1024px;
+    padding:20px;
+    max-height:550px;
+}
+.jpg{
+    position: absolute;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+
+}
+
+
+#png1 {
+    animation-name: png1;
+    
+  }
+
+  @keyframes png1{
+    0% {
+      opacity:1;
+    } 
+    50% {
+
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+#png2 {
+    animation-name: png2;
+}
+
+  @keyframes png2{
+    0% {
+        opacity: 0;
+      } 
+      50% {
+        opacity: 1;
+
+      }
+      100% {
+       opacity: 0;
+      }
+  }
+#png3 {
+ 
+    animation-name: png3;
+    
+  }
+
+  @keyframes png3{
+    0% {
+        opacity:0;
+        }
+   
+    50% {
+       opacity:0;
+       }
+
+    90%{
+        opacity:1;
+       }
+    100%{
+        opacity: 0%;
+    }
+  }
+
+
+
+
+#texto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+    flex-wrap: wrap;
+    animation-duration: 3s;
+    
+    
+}
+
+#texto p{
+    
+    line-height: 1.48;
+    color: #7a6120;
+    font-family: "Lucida Bright", Georgia, serif;
+    font-style: italic;
+    float: left;
+  }
+  #texto:hover {
+background-color: rgba(212, 187, 187, 0.4);
+transition: 3s;
+align-items: center;
+  }
+h3 {
+    text-align: center;
+    font-family: "Lucida Bright", Georgia, serif;
+    color: rgb(252, 246, 246);
+    text-shadow:
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
+}
+.wil{
+    max-width: 90%;
+}
